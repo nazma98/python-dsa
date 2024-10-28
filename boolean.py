@@ -52,3 +52,22 @@ if name:
     print(f"{name} is not empty!")
 else:
     print(f"{name} is empty")
+
+
+
+# Using any and all global functions in case boolean check
+
+book_1_read = True
+book_2_read = False
+
+read_any_book = any([book_1_read, book_2_read])
+print(read_any_book)
+
+
+# all global method example
+
+ingredients_purchased = True
+meal_cooked = False
+
+ready_to_serve = all([ingredients_purchased, meal_cooked])
+print(ready_to_serve)
