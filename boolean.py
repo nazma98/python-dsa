@@ -32,3 +32,23 @@ if done_with_neg:
     print("it's neg value!")
 else:
     print("It's a zero!")
+
+
+# empty strings are falsy value
+
+name = ""
+
+if name:
+    print("String not empty!")
+else:
+    print("Empty string!")
+
+
+#non-empty strings display truthy value
+
+name = "Nazma"
+
+if name:
+    print(f"{name} is not empty!")
+else:
+    print(f"{name} is empty")
