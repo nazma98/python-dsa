@@ -24,3 +24,13 @@ print(new_line)
 # using \ for printing a \
 directory = "C\\usrs\\Desktop"
 print(directory)
+
+
+# slicing a string
+fruit = "jackfruit"
+
+print(fruit[2:4])
+
+print(fruit[:7])
+
+print(fruit[5:])
