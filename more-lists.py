@@ -43,3 +43,11 @@ print(foods)
 
 foods += ["chicken", 11]
 print(foods)
+
+# remove an item from the list
+foods.remove("pizza")
+print(foods)
+
+# use pop() method to remove and return the last item
+print(foods.pop())
+print(foods)
