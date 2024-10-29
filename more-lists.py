@@ -51,3 +51,11 @@ print(foods)
 # use pop() method to remove and return the last item
 print(foods.pop())
 print(foods)
+
+# insert an item in the middle of the list
+foods.insert(3, "fish")
+print(foods)
+
+# insert multiple items using slice
+foods[2:2] = ["raddish", "ramen", "kimchi"]
+print(foods)
