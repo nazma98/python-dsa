@@ -26,3 +26,20 @@ print(foods[2:4]) # ['pasta', 'pizza']
 
 # length of list
 print(len(foods))
+
+
+# append an item at the end of the list
+
+foods.append("cake")
+print(foods)
+
+
+# extend is used to merge another list at the end of the existing list
+foods.extend(["lemonade", False, 32])
+print(foods)
+
+
+# the += operator functions the same as extend method
+
+foods += ["chicken", 11]
+print(foods)
