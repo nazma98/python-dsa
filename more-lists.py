@@ -59,3 +59,12 @@ print(foods)
 # insert multiple items using slice
 foods[2:2] = ["raddish", "ramen", "kimchi"]
 print(foods)
+
+numbers = [21, 53, 14, 8, 45, 90]
+# sort the numbers
+numbers.sort()
+print(numbers)
+
+# reverse the sorted list
+numbers.reverse()
+print(numbers)
