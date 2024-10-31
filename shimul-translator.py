@@ -19,17 +19,5 @@ phrase = input("Enter the phrase: ")
 print(translate(phrase))
 
 
-"""
-for letter in phrase:
-    if letter in vowels:
-        print("s")
-
-for index in range(len(phrase)):
-    if phrase[index] in vowels:
-        phrase[index] = "s"
-
-print(phrase)
-"""
-
 
 
