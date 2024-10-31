@@ -4,11 +4,14 @@
 
 def translate(phrase):
     translation = ""
-    vowels=['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+    vowels=['a', 'e', 'i', 'o', 'u']
 
     for letter in phrase:
-        if letter in vowels:
-            translation += 's'
+        if letter.lower() in vowels:
+            if letter.isupper():
+                translation += 'S'
+            else:
+                translation += 's'
         else:
             translation += letter
     return translation
