@@ -9,3 +9,8 @@ print(number_grid)
 
 for row in number_grid:
     print(row)
+
+# iterate through all the items
+for row in number_grid:
+    for col in row:
+        print(col)
