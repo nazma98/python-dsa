@@ -3,4 +3,5 @@ Masuuma - Auditor
 Shimul - Actor
 Abir - Adhesive Bonding Machine Operator
 Kamrul - Tender
-
+Toby - Human resourcesRuby - Actress
+Kelly - Customer service
