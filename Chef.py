@@ -3,7 +3,7 @@ class Chef:
         print("Chef makes rice!")
 
     def make_chicken(self):
-        print("Chef makes checken!")
+        print("Chef makes chicken!")
 
     def make_dumpling(self):
         print("Chef makes dumplings!")
