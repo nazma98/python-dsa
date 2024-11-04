@@ -13,3 +13,11 @@ for i in list:
         new_list.append(i)
 
 print(new_list)
+
+# Create a new list of squares from the first list but add 1 to each value.
+add_one_list = []
+
+for i in list:
+    add_one_list.append(i+1)
+
+print(add_one_list)
