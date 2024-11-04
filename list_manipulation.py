@@ -18,4 +18,15 @@ for i in range(1, len(list)):
 
 print(f"Maximum number is {max}")
 print(f"Minimum number is {min}")
+
 # Remove duplicates from a list of integers.
+new_list = [12, 12, 34, 56, 56, 89, 79, 56, 56, 98]
+frequency = []
+cnt = 0
+
+for i in range(len(new_list)):
+    if new_list[i] not in(frequency):
+        frequency.append(new_list[i])
+
+print(frequency)
+
