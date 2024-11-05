@@ -9,6 +9,9 @@ print(natural_num[:5])
 
 
 #     Extract the last 5 elements of the list.
+print(natural_num[15:20])
+print(natural_num[15:])
+print(natural_num[-5:])
 
 #     Extract every other element from the list.
 #     Reverse the list using slicing.
