@@ -11,5 +11,6 @@ for i in range(3):
 print(matrix)
                       
 # Access the element in the second row, third column.
+print(matrix[1][2])
 # Update the element in the first row, second column to a new value.
 # Print the matrix as a formatted grid.
