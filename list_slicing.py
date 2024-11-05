@@ -18,3 +18,5 @@ print(natural_num[-5:])
 print(natural_num[::2]) # odd
 print(natural_num[1::2]) # even
 #     Reverse the list using slicing.
+
+print(natural_num[::-1])
