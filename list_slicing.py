@@ -15,5 +15,6 @@ print(natural_num[-5:])
 
 #     Extract every other element from the list.
 
-print(natural_num[::2])
+print(natural_num[::2]) # odd
+print(natural_num[1::2]) # even
 #     Reverse the list using slicing.
