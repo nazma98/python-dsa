@@ -13,4 +13,7 @@ print(matrix)
 # Access the element in the second row, third column.
 print(matrix[1][2])
 # Update the element in the first row, second column to a new value.
+matrix[0][1] = 12
+print(matrix)
+
 # Print the matrix as a formatted grid.
