@@ -14,4 +14,6 @@ print(natural_num[15:])
 print(natural_num[-5:])
 
 #     Extract every other element from the list.
+
+print(natural_num[::2])
 #     Reverse the list using slicing.
