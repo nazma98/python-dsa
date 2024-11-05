@@ -17,3 +17,5 @@ matrix[0][1] = 12
 print(matrix)
 
 # Print the matrix as a formatted grid.
+for i in range(3):
+    print(matrix[i])
