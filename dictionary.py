@@ -13,3 +13,6 @@ for value in new_dictionary.values():
 
 for key, value in new_dictionary.items():
     print(key, value)
+
+new_dictionary_copy = new_dictionary
+print(new_dictionary_copy)
