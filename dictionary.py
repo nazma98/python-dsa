@@ -7,3 +7,9 @@ print(new_dictionary2)
 
 name = new_dictionary["name"]
 print(name)
+
+for value in new_dictionary.values():
+    print(value)
+
+for key, value in new_dictionary.items():
+    print(key, value)
