@@ -11,3 +11,6 @@ newSet.add(1)
 newSet.add(2)
 newSet.add(3)
 print(newSet)
+
+newSet.remove(3)
+print(newSet)
