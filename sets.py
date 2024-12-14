@@ -14,3 +14,6 @@ print(newSet)
 
 newSet.remove(3)
 print(newSet)
+
+newSet.discard(4)
+print(newSet)
