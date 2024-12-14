@@ -17,3 +17,6 @@ print(newSet)
 
 newSet.discard(4)
 print(newSet)
+
+newSet.clear()
+print(newSet)
