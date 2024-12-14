@@ -3,3 +3,6 @@ print(set1)
 
 myset = set("Hello")
 print(myset)
+
+newSet = set()
+print(type(newSet))
