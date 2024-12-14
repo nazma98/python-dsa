@@ -6,3 +6,8 @@ print(myset)
 
 newSet = set()
 print(type(newSet))
+
+newSet.add(1)
+newSet.add(2)
+newSet.add(3)
+print(newSet)
