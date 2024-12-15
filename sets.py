@@ -18,5 +18,8 @@ print(newSet)
 newSet.discard(4)
 print(newSet)
 
-newSet.clear()
-print(newSet)
+# newSet.clear()
+# print(newSet)
+
+for i in newSet:
+    print(i)
