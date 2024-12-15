@@ -30,3 +30,6 @@ primes = {2, 3, 5, 7}
 
 u = odds.union(evens)
 print(u)
+
+i = odds.intersection(primes)
+print(i)
