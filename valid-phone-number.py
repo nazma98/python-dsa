@@ -17,3 +17,7 @@ test_numbers = [
     "+8801976543210",  # Valid
     "01712345678",     # Valid
 ]
+
+for number in test_numbers:
+    result = is_valid_phone_number(number)
+    print(result)
