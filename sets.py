@@ -45,3 +45,8 @@ print(symDiff)
 
 setA.update(setB)
 print(setA)
+
+setC = {1, 2, 3, 4, 5, 6}
+setD = {1, 2, 3}
+
+print(setD.issubset(setC))
