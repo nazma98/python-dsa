@@ -39,3 +39,6 @@ setB = {1, 2, 3, 10, 11, 12}
 
 diff = setA.difference(setB)
 print(diff)
+
+symDiff = setA.symmetric_difference(setB)
+print(symDiff)
