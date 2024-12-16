@@ -42,3 +42,6 @@ print(diff)
 
 symDiff = setA.symmetric_difference(setB)
 print(symDiff)
+
+setA.update(setB)
+print(setA)
