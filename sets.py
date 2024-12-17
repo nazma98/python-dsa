@@ -51,3 +51,4 @@ setD = {1, 2, 3}
 
 print(setD.issubset(setC))
 print(setC.issuperset(setD))
+print(setC.isdisjoint(setD))
