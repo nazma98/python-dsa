@@ -6,3 +6,6 @@ print(another_string)
 
 char = my_string[0]
 print(char)
+
+substring = my_string[1:5]
+print(substring)
