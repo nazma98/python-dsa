@@ -12,3 +12,6 @@ print(substring)
 
 substring2 = my_string[::2]
 print(substring2)
+
+reversed_string = my_string[::-1]
+print(reversed_string)
