@@ -9,3 +9,6 @@ print(char)
 
 substring = my_string[1:5]
 print(substring)
+
+substring2 = my_string[::2]
+print(substring2)
