@@ -20,3 +20,8 @@ if 'e' in my_string:
     print('true')
 else:
     print('false')
+
+if 'ello' in my_string:
+    print('true')
+else:
+    print('false')
