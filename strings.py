@@ -15,3 +15,8 @@ print(substring2)
 
 reversed_string = my_string[::-1]
 print(reversed_string)
+
+if 'e' in my_string:
+    print('true')
+else:
+    print('false')
