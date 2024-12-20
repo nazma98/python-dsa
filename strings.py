@@ -25,3 +25,9 @@ if 'ello' in my_string:
     print('true')
 else:
     print('false')
+
+new_string = '   Nazma Sarker  '
+print(new_string)
+
+new_string = new_string.strip()
+print(new_string)
