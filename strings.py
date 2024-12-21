@@ -31,3 +31,5 @@ print(new_string)
 
 new_string = new_string.strip()
 print(new_string)
+
+print(my_string.upper())
