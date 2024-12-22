@@ -40,3 +40,6 @@ print(my_string.startswith('Hello'))
 
 print(my_string.endswith('d'))
 print(my_string.endswith('world!'))
+
+print(my_string.find('o'))
+print(my_string.find('w'))
