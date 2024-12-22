@@ -46,3 +46,5 @@ print(my_string.find('w'))
 print(my_string.find('llo'))
 
 print(my_string.count('l'))
+
+print(my_string.replace('world', 'universe'))
