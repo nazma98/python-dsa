@@ -44,3 +44,5 @@ print(my_string.endswith('world!'))
 print(my_string.find('o'))
 print(my_string.find('w'))
 print(my_string.find('llo'))
+
+print(my_string.count('l'))
