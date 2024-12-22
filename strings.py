@@ -39,3 +39,4 @@ print(my_string.startswith('H'))
 print(my_string.startswith('Hello'))
 
 print(my_string.endswith('d'))
+print(my_string.endswith('world!'))
