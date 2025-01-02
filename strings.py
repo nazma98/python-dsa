@@ -52,3 +52,6 @@ print(my_string.replace('world', 'universe'))
 my_string = 'how are you doing'
 my_list = my_string.split(" ")
 print(my_list)
+
+new_string = ' '.join(my_list)
+print(new_string)
