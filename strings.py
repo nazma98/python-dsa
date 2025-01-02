@@ -48,3 +48,7 @@ print(my_string.find('llo'))
 print(my_string.count('l'))
 
 print(my_string.replace('world', 'universe'))
+
+my_string = 'how are you doing'
+my_list = my_string.split(" ")
+print(my_list)
